@@ -29,13 +29,21 @@ const router = createBrowserRouter([
       },
       {
         path: "/post/:id",
-        element:<Single />
+        element: <Single />,
       },
       {
         path: "/write",
-        element: <Write />
+        element: <Write />,
       },
     ],
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ]);
 
