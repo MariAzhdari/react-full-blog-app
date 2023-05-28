@@ -6,6 +6,7 @@ import Single from "./pages/Single";
 import Write from "./pages/Write";
 import Footer from "./componets/Footer";
 import Navbar from "./componets/Navbar";
+import "./style.scss";
 
 
 const Layout = () => {
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="container">
         <RouterProvider router={router} />
       </div>
