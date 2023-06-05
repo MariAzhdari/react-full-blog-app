@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "a blog app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariAzhdari/react-full-blog-app.git"
+  },
+  "author": "MariAzhdari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariAzhdari/react-full-blog-app/issues"
+  },
+  "homepage": "https://github.com/MariAzhdari/react-full-blog-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
+  }
+}
