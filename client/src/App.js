@@ -4,20 +4,19 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Single from "./pages/Single";
 import Write from "./pages/Write";
-import Footer from "./componets/Footer";
-import Navbar from "./componets/Navbar";
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar";
 import "./style.scss";
 
-
 const Layout = () => {
-return(
-  <>
-  <Navbar/>
-  <Outlet/>
-  <Footer/>
-  </>
-)
-}
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
 
 const router = createBrowserRouter([
   {
@@ -47,7 +46,6 @@ const router = createBrowserRouter([
     element: <Login />,
   },
 ]);
-
 
 function App() {
   return (
